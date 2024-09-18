@@ -80,24 +80,192 @@ padding: 24px;
 }
 
 .header__image__container {
+    display: flex;
 width:60%;
 
 }
 
-.container {
-    display: flex;
-    padding: 24;
 
+
+
+.services__container {
+    display: flex;
+    flex-wrap: wrap;
+   
 }
 
 .services {
     display: flex;
-    width: calc(100%/3);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   width: calc(100%/3);
+}
+
+.quality-work__container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.quality-work__image__container {
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.quality-work__image {
+    width: 50%;
+display: flex;
+
+}
+
+.steps__container {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.pricing__box__container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 16px;
+    margin: 16px;
 }
 
 
+.pricing__box {
+background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 16px;
+margin: 16px;
 
+}
 
+button {
+
+    background-color: plum;
+    color: white;
+    padding:0 16px;
+    margin: 8px;
+}
+
+.pricing__header {
+    text-align: center;
+    line-height: 1.5;
+    margin:  16px;
+    padding:  16px;
+
+}
     
+.principle__box__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+   
     
 
+
+}
+    
+.principle__box__container {
+text-align: center;
+}
+
+.values__image__container {
+display: flex;
+justify-content: flex-end;
+
+}
+
+
+.values__image {
+    width: 50%;
+}
+
+.testimonials__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    margin: 16px;
+
+}
+
+.testimonials__header {
+    background-color: rgb(0, 255, 34);
+padding: 16px;
+margin: 16px;
+
+}
+
+.testimonials__caption {
+
+    background-color: aqua;
+    padding:16px;
+    margin:16px;
+
+}
+
+.faqs__header {
+    text-align: center;
+    padding:16px;
+    margin:16px;
+
+}
+
+.faqs__accordion__container {
+    background-color: rgb(184, 120, 36);
+text-align: center;
+padding: 16px;
+margin:16px;
+line-height: 1.5;
+
+}
+
+.faqs__accordion__box {
+
+}
+
+.button__container {
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:16px;
+    margin:16px;
+
+
+
+}
+
+.links {
+    background-color: #1b41ea;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    align-items: center;
+}
+
+.footer__info {
+    background-color: #dac61b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 8px;
+}
